@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background-color: #B4C292;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: snow;
+    height: 45vh;
+    width: 20vw;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.input{
+    width: 100%;
+    background-color: snow;
+    border-radius: 0.45rem;
+    border: 1px solid rgb(143, 178, 190);
+    height: 1.75rem;
+}
+.text{
+    margin-bottom: 2rem;
+}
+.dropdowns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+select{
+    border: none;
+    background-color: snow;
+    font-weight: 700;
+}
+.from-select, .to-select{
+    display: flex;
+    border: 1px solid rgb(143, 178, 190);
+    border-radius: 0.25rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+img{
+    height: 2rem;
+    width: 2rem;
+}
+.dropdowns i{
+    font-size: 1.5rem;
+    align-self: center;
+}
+.msg{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+button{
+    width: 100%;
+    background-color: #4C061D;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+}
