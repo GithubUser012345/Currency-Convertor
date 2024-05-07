@@ -12,18 +12,14 @@
         <div class="text">
             <h1>Currency Convertor</h1>
             <p>Enter Amount</p>
-            <input type="text" class="input">
+            <input type="text" class="input" placeholder="Amount">
         </div>
         <div class="dropdowns">
             <div class="from-dropdown">
                 <p>From</p>
                 <div class="from-select">
-                    <img src="https://flagsapi.com/IN/shiny/64.png">
-                    <select>
-                        <option value="USD">USD</option>
-                        <option value="IN">IN</option>
-                        <option value="BE">BE</option>
-                        <option value="JPY">JPY</option>
+                    <img src="https://flagsapi.com/US/shiny/64.png">
+                    <select name="from">
                     </select>
                 </div>
             </div>
@@ -32,18 +28,15 @@
                 <p>To</p>
                 <div class="to-select">
                     <img src="https://flagsapi.com/IN/shiny/64.png">
-                    <select>
-                        <option value="USD">USD</option>
-                        <option value="IN">IN</option>
-                        <option value="BE">BE</option>
-                        <option value="JPY">JPY</option>
+                    <select name="to">
                     </select>
                 </div>
             </div>
         </div>
         <p class="msg">1USD = 80INR</p>
-        <button>Get Exchange Rate</button>
+        <button class="btn">Get Exchange Rate</button>
     </div>
+
     <script src="codes.js"></script>
     <script src="convertor.js"></script>
 </body>
